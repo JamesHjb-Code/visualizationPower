@@ -9,7 +9,7 @@ export default defineConfig({
   resolve:{
     // 当使用文件系统路径的别名时，请始终使用绝对路径 
     alias:{
-      "~":path.resolve(_dirname,"src")
+      "~":path.resolve(__dirname,"src")
     }
   },
   // 为开发服务器配置自定义代理规则
