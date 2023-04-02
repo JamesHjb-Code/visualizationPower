@@ -1,7 +1,40 @@
-# Vue 3 + Vite
+# 可视化变电所管理系统简介
+> 基于vue3+threejs+elementUI+express+mysql搭建，通过threejs去展示一个变电所现实场景，支持与模型场景交互操作，由查看运行设备情况、路径巡检、显示/隐藏模型场景层级的区分等。
 
-This template should help get you started developing with Vue 3 in Vite. The template uses Vue 3 `<script setup>` SFCs, check out the [script setup docs](https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup) to learn more.
+### 技术栈
 
-## Recommended IDE Setup
+前端：vue+vueRouter+vuex+axios+threejs+elementUI+echarts
+服务端：nodejs+express+mysql
 
-- [VS Code](https://code.visualstudio.com/) + [Volar](https://marketplace.visualstudio.com/items?itemName=Vue.volar) (and disable Vetur) + [TypeScript Vue Plugin (Volar)](https://marketplace.visualstudio.com/items?itemName=Vue.vscode-typescript-vue-plugin).
+### 运行项目
+
+```
+# 将项目克隆到本地
+git clone git@github.com:JamesHjb-Code/visualizationPower.git
+
+# 安装依赖包
+npm install
+
+# 启动项目
+npm run dev
+
+# 打包项目
+npm run build
+```
+### 启动服务器
+
+```
+# 将选择server文件夹下新建终端
+
+# 安装依赖包
+npm install
+
+# 启动服务器
+npm run server
+
+```
+
+### 目录结构说明
+
+
+### 功能清单
