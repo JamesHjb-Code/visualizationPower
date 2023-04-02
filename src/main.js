@@ -4,9 +4,10 @@ import ElementPlus from 'element-plus'
 import * as ElementPlusIconsVue from '@element-plus/icons-vue'
 import router from './router'
 import store from './store'
-
+import "./guardPermission"
 // 挂载到应用上
 const app = createApp(App)
+
 app.use(ElementPlus)
 app.use(router)
 app.use(store)
