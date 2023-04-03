@@ -49,7 +49,6 @@ const loginApi = (router) => {
    * @apiParam {string} phone 手机号码
    * @apiParam {string} address  地址
    * @apiParam {string} avatar  头像
-   * @apiParam {string} roleLevel  权限
    * @apiRequest http://127.0.0.1:3006/api/admin/getInfo
     */
    router.get('/admin/getInfo',(req,res,next)=>{

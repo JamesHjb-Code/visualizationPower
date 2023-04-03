@@ -5,7 +5,7 @@ const db = {
   user:'root',
   password:'123456',
   port: '3306',
-  database:'my_shop',
+  database:'power_substation',
   connectionLimit: 10000
 }
 // 导出db数据库对象
