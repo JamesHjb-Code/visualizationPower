@@ -1,6 +1,5 @@
-# 可视化变电所管理系统简介
-> 基于vue3+threejs+elementUI+express+mysql搭建，通过threejs去展示一个变电所现实场景，支持与模型场景交互操作，由查看运行设备情况、路径巡检、显示/隐藏模型场景层级的区分等。
-
+# 智慧变电所可视化平台简介
+> 基于vue3+threejs+elementUI+express+mysql搭建，通过threejs去展示一个变电所虚拟现实场景，支持与模型场景交互操作，由查看运行设备情况、路径巡检、显示/隐藏模型场景层级的区分等，视觉方面更加简单易懂。
 ### 技术栈
 
 前端：vue+vueRouter+vuex+axios+threejs+elementUI+echarts

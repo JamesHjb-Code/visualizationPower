@@ -5,7 +5,7 @@
             class="left-wrapper" :class="isRegister?'register-background':'login-background'">
       <div class="text-content">
         <div class="text-head">欢迎光临</div>
-        <div class="text-content">电商——后台管理系统</div>
+        <div class="text-content">智慧变电所可视化平台</div>
       </div>
     </el-col>
     <!-- 登录 -->
