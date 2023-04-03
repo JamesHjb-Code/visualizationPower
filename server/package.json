@@ -16,7 +16,6 @@
     "express-jwt": "^5.3.3",
     "jsonwebtoken": "^8.5.1",
     "mysql": "^2.18.1",
-    "svgo-loader": "^4.0.0",
-    "universal-cookie": "^4.0.4"
+    "svgo-loader": "^4.0.0"
   }
 }
