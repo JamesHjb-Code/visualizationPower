@@ -146,9 +146,9 @@ import { User, Lock, House, Iphone } from '@element-plus/icons-vue'
 import { ref, reactive } from 'vue'
 import { useRouter } from 'vue-router'
 import { useStore } from 'vuex'
-import { login , checkUsername, register} from '~/api/login'
-import { prompt } from '~/compontool/util'
-import { setToken } from '~/compontool/token'
+import { login , checkUsername, register} from '@/api/login'
+import { prompt } from '@/compontool/util'
+import { setToken } from '@/compontool/token'
 const store = useStore()
 const router = useRouter()
 

@@ -1,11 +1,9 @@
-import router from '~/router'
-import { getToken } from '~/compontool/token'
+import router from '@/router'
+import { getToken } from '@/compontool/token'
 import store from './store'
 // 全局前置守卫
 router.beforeEach(async (to, from, next) => {
- 
   const token = getToken()
-
   // 没有token情况下，强制跳回登录页
   if (!token && to.path !== '/login') {
     return next({ path: "/login" }) //放行跳转

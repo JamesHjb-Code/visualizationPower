@@ -1,6 +1,6 @@
 import axios from 'axios'
-import { prompt } from '~/compontool/util'
-import { getToken } from '~/compontool/token'
+import { prompt } from '@/compontool/util'
+import { getToken } from '@/compontool/token'
 
 // axios创建实例
 const service = axios.create({

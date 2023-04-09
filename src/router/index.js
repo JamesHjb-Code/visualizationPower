@@ -1,16 +1,19 @@
 import { createRouter, createWebHashHistory } from 'vue-router'
-import Login from '~/views/pages/login/index.vue'
-import NotFound from '~/views/error/404.vue'
 const routes =[
   {
     path: '/login',
     name: "Login",
-    component:Login,  // 登录
+    component:()=>import('@/views/pages/login/index.vue'),  // 登录
+  },
+  {
+    path:'/',
+    name:"main",
+    component:()=>import('@/components/layout/Main.vue'), 
   },
   {
     path: '/:pathMatch(.*)*',    // 将匹配所有内容并将其放在 `$route.params.pathMatch` 下,在没有找到页面的情况下就触发。
     name: 'NotFound',
-    component: NotFound
+    component: ()=>import('@/views/error/404.vue')
   },
 ]
 const router = createRouter({

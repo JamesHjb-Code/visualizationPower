@@ -1,4 +1,4 @@
-import axios from '~/libs/axios'
+import axios from '@/libs/axios'
 
 // 登录
 export const login = (query) =>{

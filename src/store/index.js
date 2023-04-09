@@ -1,5 +1,5 @@
 import { createStore } from "vuex"
-import { getInfo } from '~/api/login'
+import { getInfo } from '@/api/login'
 const store = createStore({
   state () {
     return {
