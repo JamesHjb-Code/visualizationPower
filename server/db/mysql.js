@@ -3,7 +3,7 @@
 const db = {
   host:'127.0.0.1',
   user:'root',
-  password:'123456',
+  password:'root',
   port: '3306',
   database:'power_substation',
   connectionLimit: 10000
