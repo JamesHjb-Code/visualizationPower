@@ -8,7 +8,7 @@ const routes =[
   {
     path:'/',
     name:"main",
-    component:()=>import('@/components/layout/Main.vue'), 
+    component:()=>import('@/components/Main.vue'), 
   },
   {
     path: '/:pathMatch(.*)*',    // 将匹配所有内容并将其放在 `$route.params.pathMatch` 下,在没有找到页面的情况下就触发。
