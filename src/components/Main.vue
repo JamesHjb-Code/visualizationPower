@@ -4,7 +4,7 @@
   </div>
 </template>
 <script setup name="Main">
-import Header from './Header.vue'
+import Header from './layout/Header.vue'
 </script>
 <style lang="scss" scoped>
 .main-wrapper {
